@@ -96,6 +96,9 @@ nav {
 	.toggle--button {
 		display: flex;
 	}
+	.content {
+		width: 100%;
+	}
 	.nav--bar {
 		display: none;
 		width: 100%;
