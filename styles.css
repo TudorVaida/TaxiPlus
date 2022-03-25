@@ -203,6 +203,15 @@ nav {
 	color: var(--blue);
 	border-bottom: 1px solid #777;
 }
+.section--2 {
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: var(--background-color);
+	z-index: 0;
+}
 @media (max-width: 950px) {
 	.toggle--button {
 		display: flex;
