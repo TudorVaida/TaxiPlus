@@ -97,7 +97,7 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 7rem;
+	padding-bottom: 4rem;
 	background-image: var(--background-color);
 }
 
