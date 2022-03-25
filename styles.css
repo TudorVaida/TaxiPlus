@@ -92,7 +92,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background-color: bisque;
+	background-image: radial-gradient(bisque, rgb(250, 185, 106));
 }
 
 .container--text {
