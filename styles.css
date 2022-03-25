@@ -128,7 +128,7 @@ nav {
 	background-color: var(--yellow);
 	border: 5px solid var(--blue);
 }
- .slogan {
+.slogan {
 	font-size: 2rem;
 }
 .app {
@@ -160,7 +160,6 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 	background-image: var(--background-color);
 }
 .section1--info {
@@ -209,8 +208,60 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: var(--background-color);
+	padding-top: 7rem;
 	z-index: 0;
+	background-image: var(--background-color);
+}
+.section--2 h1 {
+	font-size: 2rem;
+	z-index: 1;
+	line-height: 4rem;
+}
+.section--2 span {
+	font-size: 4rem;
+}
+.section2--btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.section2--btns button {
+	width: 9rem;
+	height: 2rem;
+	margin: 2rem;
+	border-radius: 1rem;
+	background-color: var(--yellow);
+	color: var(--blue);
+	border: 3px solid var(--blue);
+	font-size: 1rem;
+	font-weight: bold;
+}
+.active {
+	transform: translateY(-66%);
+}
+.section2--info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section2--info--element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hidden {
+	display: none;
+}
+.section2--info--element img {
+	width: 12rem;
+	margin-right: 5rem;
+	border-radius: 50%;
+	border: 4px solid var(--navBar--color);
+}
+.section2--info--element div {
+	width: 40rem;
+	font-size: 1.5rem;
 }
 @media (max-width: 950px) {
 	.toggle--button {
@@ -258,12 +309,11 @@ nav {
 	.title {
 		font-size: 7vw;
 	}
-	.slogan{
+	.slogan {
 		font-size: 5vw;
-		
 	}
-	.app{
-		font-size: 7vw
+	.app {
+		font-size: 7vw;
 	}
 	.section--1 {
 		padding: 0;
@@ -284,4 +334,23 @@ nav {
 	.section1--footer {
 		flex-direction: column;
 	}
-	
+	.section--2 {
+		margin: 0;
+	}
+	.section2--info--element {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+	}
+	.section2--info--element div {
+		width: 90%;
+		margin: 0;
+	}
+	.section2--info--element img {
+		margin: 0;
+	}
+	.section2--btns button {
+		margin: 0;
+	}
+}
