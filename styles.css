@@ -107,6 +107,7 @@ nav {
 	color: black;
 	font-weight: bold;
 	font-size: 3rem;
+	padding: 1rem;
 }
 .highlight {
 	position: relative;
@@ -134,6 +135,12 @@ nav {
 .app {
 	font-size: 2rem;
 	padding: 2rem;
+	color: black;
+	font-weight: bold;
+}
+.app2 {
+	font-size: 2rem;
+	padding-top: 2rem;
 	color: black;
 	font-weight: bold;
 }
@@ -273,8 +280,66 @@ nav {
 	justify-content: center;
 	align-items: center;
 	padding-top: 7rem;
+	padding-bottom: 7rem;
 	z-index: 0;
 	background-image: var(--background-color);
+}
+.contact--title {
+	color: black;
+	font-weight: bold;
+	font-size: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+}
+.contact--subtitle {
+	font-size: 1.7rem;
+	padding-top: 2rem;
+}
+.section3--container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-top: 7rem;
+}
+/* .section3--container--info{
+
+} */
+.location {
+	height: 25rem;
+	width: 25rem;
+	border: 3px solid var(--navBar--color);
+}
+.question {
+	font-size: 2rem;
+	padding: 1rem;
+}
+.answer {
+	font-size: 1.3rem;
+	padding: 1rem;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: var(--navBar--color);
+	height: 20rem;
+}
+.footer img {
+	height: 6rem;
+}
+.footer div {
+	color: #aaa;
+}
+.parteners {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+.parteners img {
+	height: 3rem;
 }
 @media (max-width: 950px) {
 	.toggle--button {
@@ -363,5 +428,14 @@ nav {
 	}
 	.section2--info--element img {
 		margin: 0;
+	}
+	.section3--container {
+		flex-direction: column;
+	}
+	.location {
+		margin-top: 3rem;
+	}
+	.parteners {
+		flex-direction: column;
 	}
 }
