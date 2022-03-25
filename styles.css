@@ -106,6 +106,7 @@ nav {
 .title {
 	color: black;
 	font-weight: bold;
+	font-size: 3rem;
 }
 .highlight {
 	position: relative;
@@ -127,10 +128,7 @@ nav {
 	background-color: var(--yellow);
 	border: 5px solid var(--blue);
 }
-.container--text .title {
-	font-size: 3rem;
-}
-.container--text .slogan {
+ .slogan {
 	font-size: 2rem;
 }
 .app {
@@ -203,6 +201,7 @@ nav {
 	align-items: center;
 	text-align: center;
 	color: var(--blue);
+	border-bottom: 1px solid #777;
 }
 @media (max-width: 950px) {
 	.toggle--button {
@@ -247,11 +246,22 @@ nav {
 		display: flex;
 		flex-direction: column;
 	}
+	.title {
+		font-size: 7vw;
+	}
+	.slogan{
+		font-size: 5vw;
+		
+	}
+	.app{
+		font-size: 7vw
+	}
 	.section--1 {
 		padding: 0;
 	}
 	.section1--info {
 		flex-direction: column;
+		margin: 0;
 	}
 	.section1--text {
 		width: 80%;
@@ -262,4 +272,7 @@ nav {
 	.section1--info img {
 		width: 90%;
 	}
-}
+	.section1--footer {
+		flex-direction: column;
+	}
+	
